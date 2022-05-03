@@ -16,11 +16,11 @@ void Run(HMODULE* phModule)
 #ifdef _DEBUG
 	Sleep(10000);
 #else
-	while (GetModuleHandle("UserAssembly.dll") == nullptr)
-	{
-		Sleep(2000);
-	}
-    Sleep(15000);
+	do { Sleep(100); } while (!GetModuleHandle("dxgi.dll"));
+	do { Sleep(100); } while (!GetModuleHandle("UnityPlayer.dll"));
+	do { Sleep(100); } while (!GetModuleHandle("UserAssembly.dll"));
+	do { Sleep(100); } while (!GetModuleHandle("xlua.dll"));
+	do { Sleep(100); } while (!GetModuleHandle("Mmoron.dll"));
 #endif
 
 	ResourceLoader::SetModuleHandle(*phModule);
