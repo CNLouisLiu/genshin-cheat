@@ -10,7 +10,7 @@
 #include <cheat/misc/ProtectionBypass.h>
 #include <cheat/misc/Hotkeys.h>
 #include <cheat/misc/Debug.h>
-
+#include <cheat/game/QuestManager.h>
 #ifdef _PACKET_SNIFFER
 #include <cheat/misc/sniffer/PacketSniffer.h>
 #endif
@@ -95,7 +95,9 @@ namespace cheat
 			FEAT_INST(AutoFish),
 
 			FEAT_INST(NoFog),
-			FEAT_INST(FPSUnlock)
+			FEAT_INST(FPSUnlock),
+
+			FEAT_INST(QuestManager)
 
 			});
 #undef FEAT_INST

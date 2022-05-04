@@ -25,3 +25,6 @@ DO_SINGLETONEDEF(0x0B326FF8, Singleton_1_PlayerModule_);
 DO_SINGLETONEDEF(0x0B2F2A38, Singleton_1_MapManager_);
 DO_SINGLETONEDEF(0x0B399890, Singleton_1_NetworkManager_1_);
 DO_SINGLETONEDEF(0x0B2227B8, Singleton_1_ScenePropManager_);
+
+
+DO_SINGLETONEDEF(0x0B383660, Singleton_1_HHMJPCFFJJG_);

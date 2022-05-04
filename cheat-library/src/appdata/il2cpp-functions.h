@@ -250,3 +250,7 @@ DO_APP_FUNC_METHODINFO(0x0B2FD3D0, Singleton_1_MapManager__get_Instance__MethodI
 DO_APP_FUNC_METHODINFO(0x0B321D50, Singleton_1_ScenePropManager__get_Instance__MethodInfo);
 DO_APP_FUNC_METHODINFO(0x0B3A9738, Singleton_1_NetworkManager_1__get_Instance__MethodInfo);
 
+//Quest
+DO_APP_FUNC_METHODINFO(0x0B385418, Singleton_1_HHMJPCFFJJG__get_Instance__MethodInfo);
+DO_APP_FUNC(0x07626D40, void*, Singleton_1_HHMJPCFFJJG__get_Instance, (void* __this, MethodInfo* method));
+DO_APP_FUNC(0x029F2020, List_1_MoleMole_QuestProxy_*, HHMJPCFFJJG_OFLACMDDLHB, (HHMJPCFFJJG* __this, uint32_t MHKDNJMKACM, MethodInfo* method));
